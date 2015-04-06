@@ -15,7 +15,12 @@ namespace MVC5In7DayLab1.Controllers
         //}
         public ActionResult demo()
         {
-            return View("phat");
+            return View();
+        }
+
+        public string GetString()
+        {
+            return "Hello!";
         }
     }
 }
